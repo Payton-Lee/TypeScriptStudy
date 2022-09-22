@@ -61,3 +61,4 @@ function fn(): void {
 function fn1(): never{
     throw new Error('报错了！');
 }
+fn1();
